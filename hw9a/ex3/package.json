@@ -1,0 +1,14 @@
+{
+  "name": "ex3",
+  "version": "1.0.0",
+  "description": "Homework 9 Exercise 3",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "takeo",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.29.1"
+  }
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homework 9 Exercise 1</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+  <h3></h3><a href="/">Link to Start Page</a></h3>
+
+  <h2>Sample Form</h2>
+  <form>
+    <p>
+      <label for="customername">Name: </label>
+      <input type="text" name="customername" id="customername" required>
+      <span id="customernameHelp"></span>
+    </p>
+    <p>
+      <label for="email">Email: </label>
+      <input type="text" name="email" id="email" required placeholder="name@domain">
+      <span id="emailHelp"></span>
+    </p>
+    <p>Payment Type:</p>
+    <p>
+      <input type="radio" name="paymentType" id="cash" value="cash">
+      <label for="cash">Cash</label>
+      <br>
+      <input type="radio" name="paymentType" id="cc" value="cc">
+      <label for="cc">Credit Card</label>
+      <br>
+      <input type="radio" name="paymentType" id="gpay" value="gpay">
+      <label for="gpay">Google Pay</label>
+      <br>
+      <input type="radio" name="paymentType" id="apay" value="apay">
+      <label for="apay">Apple Pay</label>
+    </p>
+    <p>
+      <input type="checkbox" name="promotion" id="promotion">
+      <label for="promotion">Sign me up for special promotions</label>
+    </p>
+    <p>
+      <label for="location">Preferred Location: </label>
+      <select name="location" id="location">
+        <option value="oc">Orange County</option>
+        <option value="la">Los Angeles County</option>
+        <option value="rs">Riverside County</option>
+        <option value="sb">Santa Barbara County</option>
+        <option value="sd">San Diego County</option>
+      </select>
+    </p>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Cancel">
+  </form>
+  <div id="output"></div>
+
+  <script src="/ex1.js"></script>
+
+</body>
+`
+
+</html>
